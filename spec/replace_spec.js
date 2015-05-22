@@ -7,6 +7,7 @@ var words = [
   "guys",
   "he/she",
   "his/her",
+  "his / her",
   "actress",
   "he or she"
 ];
