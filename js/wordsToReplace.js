@@ -34,6 +34,18 @@ function handleText(textNode)
 	v = v.replace(/\bguys\b/g, "people");
 	v = v.replace(/\bGuys\b/g, "People");
 	v = v.replace(/\bGUYS\b/g, "PEOPLE");
+	v = v.replace(/\bhe\/she\b/g, "they");
+	v = v.replace(/\bHe\/she\b/g, "They");
+	v = v.replace(/\bHE\/SHE\b/g, "THEY");
+	v = v.replace(/\bhe or she\b/g, "they");
+	v = v.replace(/\bHe or she\b/g, "They");
+	v = v.replace(/\bHE OR SHE\b/g, "THEY");
+	v = v.replace(/\bhis\/her\b/g, "their");
+	v = v.replace(/\bHis\/her\b/g, "their");
+	v = v.replace(/\bHIS\/HER\b/g, "THEIR");
+	v = v.replace(/\bactress\b/g, "actor");
+	v = v.replace(/\bACTRESS\b/g, "ACTOR");
+
 
 	textNode.nodeValue = v;
 }

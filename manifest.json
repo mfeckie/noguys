@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "NoGuys",
+	"version": "1.0",
+	"description": "Replaces gendered words with non-gendered words",
+	"icons": {
+		"16":"images/no_guys.png",
+		"48":"images/no_guys.png",
+		"128":"images/no_guys.png"
+	},
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["js/wordsToReplace.js"],
+			"run_at": "document_end"
+		}
+	]
+}
