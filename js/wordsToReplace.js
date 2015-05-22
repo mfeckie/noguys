@@ -46,6 +46,8 @@ function handleText(textNode)
 	v = v.replace(/\bactress\b/gi, "actor");
 	v = v.replace(/\bfire(woman|man)\b/gi, "firefighter");
 	v = v.replace(/\bpolice(woman|man)\b/gi, "police officer");
+	v = v.replace(/\bmanned\b/gi, "crewed");
+	v = v.replace(/\bunmanned\b/gi, "uncrewed");
 
 
 
