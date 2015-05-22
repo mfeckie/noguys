@@ -4,6 +4,15 @@ NoGuys
 A browser plugin that reduces the occurrence of gendered words.  It probably misses
 lots of cases, but it's a start.
 
+
+| Gendered  | Replacement |
+|:----------|:------------|
+| Guys      | People      |
+| he / she  | they        |
+| he or she | they        |
+| his / her | their       |
+| actress   | actor       |
+
 Installation
 ------------
 
