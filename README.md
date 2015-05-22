@@ -7,7 +7,7 @@ lots of cases, but it's a start.
 
 | Gendered    | Replacement    |
 |:------------|:---------------|
-| Guys        | People         |
+| guys        | people         |
 | he / she    | they           |
 | he or she   | they           |
 | his / her   | their          |

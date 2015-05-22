@@ -44,8 +44,8 @@ function handleText(textNode)
 	v = v.replace(/\bHis.?\/?.her\b/g, "Their");
 	v = v.replace(/\bHIS.?\/?.HER\b/g, "THEIR");
 	v = v.replace(/\bactress\b/gi, "actor");
-	v = v.replace(/\bfire|wo|man\b/gi, "firefighter");
-	v = v.replace(/\bpolice|wo|man\b/gi, "police officer");
+	v = v.replace(/\bfire(woman|man)\b/gi, "firefighter");
+	v = v.replace(/\bpolice(woman|man)\b/gi, "police officer");
 
 
 
