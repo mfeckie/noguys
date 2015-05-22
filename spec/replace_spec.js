@@ -9,7 +9,9 @@ var words = [
   "his/her",
   "his / her",
   "actress",
-  "he or she"
+  "he or she",
+  "fireman",
+  "policewoman"
 ];
 
 describe('detecting correct word groups', function() {

@@ -41,10 +41,12 @@ function handleText(textNode)
 	v = v.replace(/\bHe or she\b/g, "They");
 	v = v.replace(/\bHE OR SHE\b/g, "THEY");
 	v = v.replace(/\bhis.?\/?.her\b/g, "their");
-	v = v.replace(/\bHis.?\/?.her\b/g, "their");
+	v = v.replace(/\bHis.?\/?.her\b/g, "Their");
 	v = v.replace(/\bHIS.?\/?.HER\b/g, "THEIR");
-	v = v.replace(/\bactress\b/g, "actor");
-	v = v.replace(/\bACTRESS\b/g, "ACTOR");
+	v = v.replace(/\bactress\b/gi, "actor");
+	v = v.replace(/\bfire|wo|man\b/gi, "firefighter");
+	v = v.replace(/\bpolice|wo|man\b/gi, "police officer");
+
 
 
 	textNode.nodeValue = v;
